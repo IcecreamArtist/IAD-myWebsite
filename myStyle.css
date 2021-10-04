@@ -1,0 +1,26 @@
+body {
+    background: url("image2.jpg") scroll;
+}
+
+h1 {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+}
+
+p {
+    background-color: lightgrey;
+    color: salmon;
+    font-family: verdana;
+    font-size: 20px;
+    border-left: 6px solid red;
+}
+
+
+div {
+    background-color: lightgrey;
+    color: salmon;
+    font-family: Calibri;
+    font-size: 20px;
+    border-left: 6px solid red;
+}

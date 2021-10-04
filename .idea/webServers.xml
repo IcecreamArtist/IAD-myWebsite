@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b5d8c8b6-de29-433c-8f4a-b6aa7a7764f9" name="IAD" url="http://119.91.105.27/">
+        <fileTransfer rootFolder="/usr/share/nginx/html" accessType="SFTP" host="119.91.105.27" port="22" sshConfigId="2366a207-e618-4c48-9197-e2c80c91bd57" sshConfig="root@119.91.105.27:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
