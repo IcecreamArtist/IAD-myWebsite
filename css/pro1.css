@@ -55,3 +55,23 @@ section {
 body {
     background-color: #1E3A3D;
 }
+
+.tc>img{
+    display: inline-block;
+    vertical-align: top;
+    width: 650px;
+    height: 400px;
+    margin: 0 20px 18px 0;
+    background: white;
+    box-sizing: border-box;
+    transition: all .5s;
+    -webkit-transition: all .5s; /* Safari */
+}
+.tc>img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    -ms-transform:scale(1.1);     /* IE 9 */
+    -moz-transform:scale(1.1);     /* Firefox */
+    -webkit-transform:scale(1.1); /* Safari 和 Chrome */
+    -o-transform:scale(1.1);
+}
